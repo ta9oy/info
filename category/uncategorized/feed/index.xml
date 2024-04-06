@@ -8,8 +8,8 @@
 	>
 
 <channel>
-	<title>root &#8211; Tanoy</title>
-	<atom:link href="https://tanoy-dev.github.io/info/author/root/feed/" rel="self" type="application/rss+xml" />
+	<title>Uncategorized &#8211; Tanoy</title>
+	<atom:link href="https://tanoy-dev.github.io/info/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
 	<link>https://tanoy-dev.github.io/info</link>
 	<description></description>
 	<lastBuildDate>Tue, 02 Apr 2024 18:57:14 +0000</lastBuildDate>
