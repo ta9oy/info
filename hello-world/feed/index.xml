@@ -8,23 +8,23 @@
 <channel>
 	<title>
 	Comments on: Hello world!	</title>
-	<atom:link href="https://tanoy-dev.github.io/info/hello-world/feed/" rel="self" type="application/rss+xml" />
-	<link>https://tanoy-dev.github.io/info/hello-world/</link>
+	<atom:link href="https://www.tanoy.us/hello-world/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.tanoy.us/hello-world/</link>
 	<description></description>
 	<lastBuildDate>Tue, 02 Apr 2024 18:57:14 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.5</generator>
+	<generator>https://wordpress.org/?v=6.5.2</generator>
 	<item>
 		<title>
 		By: A WordPress Commenter		</title>
-		<link>https://tanoy-dev.github.io/info/hello-world/#comment-1</link>
+		<link>https://www.tanoy.us/hello-world/#comment-1</link>
 
 		<dc:creator><![CDATA[A WordPress Commenter]]></dc:creator>
 		<pubDate>Tue, 02 Apr 2024 18:57:14 +0000</pubDate>
-		<guid isPermaLink="false">https://tanoy-dev.github.io/info/?p=1#comment-1</guid>
+		<guid isPermaLink="false">https://www.tanoy.us/?p=1#comment-1</guid>
 
 					<description><![CDATA[Hi, this is a comment.
 To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.
