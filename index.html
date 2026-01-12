@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional CV of Asraful Islam Tanoy - Software Developer specializing in Java Spring Boot and Vue.js">
+    <title>Asraful Islam Tanoy | Software Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html">AIT</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="theme-toggle-container">
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+                <li>
+                    <a href="cv.pdf" class="btn-download" download>
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </li>
+            </ul>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1 class="hero-title">Asraful Islam Tanoy</h1>
+            <h2 class="hero-subtitle">Software Developer | Java Spring Boot | Vue.js</h2>
+            <div class="divider"></div>
+            <p class="hero-summary">
+                Full-stack software developer with expertise in Java Spring Boot, Vue.js, and Oracle technologies.
+                Passionate about building scalable applications and solving complex problems with clean, maintainable code.
+            </p>
+        </section>
+
+        <!-- Two Column Layout -->
+        <div class="two-column">
+            <!-- Left Column -->
+            <div class="left-column">
+                <!-- Dynamic Calendar -->
+                <section class="card calendar-section">
+                    <h2 class="section-title">
+                        <i class="fas fa-calendar-alt"></i> Current Month
+                    </h2>
+                    <div class="calendar-container">
+                        <div class="calendar-header">
+                            <h3 id="currentMonthYear">Month Year</h3>
+                        </div>
+                        <div class="calendar-grid" id="calendarGrid">
+                            <!-- Calendar will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Key Technologies -->
+                <section class="card">
+                    <h2 class="section-title">
+                        <i class="fas fa-code"></i> Key Technologies
+                    </h2>
+                    <div class="tech-grid">
+                        <span class="tech-tag">Java Spring Boot</span>
+                        <span class="tech-tag">Vue.js</span>
+                        <span class="tech-tag">Oracle Database</span>
+                        <span class="tech-tag">PL/SQL</span>
+                        <span class="tech-tag">Apache POI</span>
+                        <span class="tech-tag">BI Publisher</span>
+                        <span class="tech-tag">Oracle APEX</span>
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">Git</span>
+                        <span class="tech-tag">Linux</span>
+                        <span class="tech-tag">Postman</span>
+                    </div>
+                </section>
+
+                <!-- Skills Overview -->
+                <section class="card">
+                    <h2 class="section-title">
+                        <i class="fas fa-cogs"></i> Skills Overview
+                    </h2>
+                    
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Programming Languages:</h3>
+                        <p>Java, SQL, PL/SQL, JavaScript</p>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Frameworks & Platforms:</h3>
+                        <p>Spring Boot, Vue.js, Oracle APEX</p>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Databases:</h3>
+                        <p>Oracle, PostgreSQL</p>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Reporting & Documents:</h3>
+                        <p>BI Publisher, Apache POI</p>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Tools & DevOps:</h3>
+                        <p>Docker, Git, Postman, DBeaver, Linux</p>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Right Column -->
+            <div class="right-column">
+                <!-- Employment History -->
+                <section class="card">
+                    <h2 class="section-title">
+                        <i class="fas fa-briefcase"></i> Employment History
+                    </h2>
+                    
+                    <div class="employment-item">
+                        <div class="employment-header">
+                            <h3 class="employment-role">Software Developer</h3>
+                            <span class="employment-company">Grameen Communications Ltd.</span>
+                            <span class="employment-date">December 2022 – Present</span>
+                        </div>
+                        <ul class="employment-details">
+                            <li>Worked on a Healthcare ERP supporting 120+ health centers</li>
+                            <li>Designed and built RESTful APIs using Spring Boot</li>
+                            <li>Wrote complex Oracle SQL & PL/SQL with performance tuning</li>
+                            <li>Generated Excel & PDF reports using Apache POI and BI Publisher</li>
+                            <li>Developed frontend features with Vue.js</li>
+                            <li>Maintained Oracle APEX internal systems</li>
+                            <li>Owned full delivery cycle: Git, Docker, Linux deployment, production support</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="divider-light"></div>
+                    
+                    <div class="employment-item">
+                        <div class="employment-header">
+                            <h3 class="employment-role">Assistant Software Engineer</h3>
+                            <span class="employment-company">Asia Composite Mills Ltd.</span>
+                            <span class="employment-date">January 2022 – November 2022</span>
+                        </div>
+                        <ul class="employment-details">
+                            <li>Maintained Oracle ERP systems using SQL, PL/SQL, Forms, APEX</li>
+                            <li>Developed database procedures and functions</li>
+                            <li>Supported HTML5/CSS3 UI components</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Projects Section -->
+                <section class="card">
+                    <h2 class="section-title">
+                        <i class="fas fa-project-diagram"></i> Projects
+                    </h2>
+                    
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <h3 class="project-title">Healthcare ERP System</h3>
+                            <p class="project-description">
+                                Full-stack healthcare management system supporting 120+ health centers with patient management, inventory, and reporting.
+                            </p>
+                            <a href="https://github.com/example/healthcare-erp" target="_blank" class="project-link">
+                                View Project <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        
+                        <div class="project-card">
+                            <h3 class="project-title">API Integration Platform</h3>
+                            <p class="project-description">
+                                Spring Boot-based platform for integrating multiple healthcare APIs with automated data synchronization.
+                            </p>
+                            <a href="https://github.com/example/api-platform" target="_blank" class="project-link">
+                                View Project <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        
+                        <div class="project-card">
+                            <h3 class="project-title">Report Generation System</h3>
+                            <p class="project-description">
+                                Automated reporting system using Apache POI and BI Publisher for generating Excel and PDF reports.
+                            </p>
+                            <a href="https://github.com/example/report-system" target="_blank" class="project-link">
+                                View Project <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Education & Certifications -->
+                <section class="card">
+                    <h2 class="section-title">
+                        <i class="fas fa-graduation-cap"></i> Education & Certifications
+                    </h2>
+                    
+                    <div class="education-item">
+                        <h3 class="education-title">Bachelor of Science in Computer Science</h3>
+                        <p class="education-institution">University of Example, 2018-2022</p>
+                        <p class="education-details">GPA: 3.8/4.0 | Relevant Coursework: Data Structures, Algorithms, Database Systems</p>
+                    </div>
+                    
+                    <div class="education-item">
+                        <h3 class="education-title">Oracle APEX Certification</h3>
+                        <p class="education-institution">Oracle Certified Professional</p>
+                        <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=CAD42397EE76BC58AB7039B29B968633D91A024ABABFF44791810DD2E01A8E6D" 
+                           target="_blank" class="cert-link">
+                            Verify Certification <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>&copy; <span id="currentYear"></span> Asraful Islam Tanoy. All rights reserved.</p>
+                    <p class="footer-links">
+                        <a href="index.html">Home</a> | 
+                        <a href="contact.html">Contact</a> | 
+                        <a href="mailto:tanoy@example.com">Email</a>
+                    </p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://twitter.com/yourusername" target="_blank" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
