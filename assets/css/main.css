@@ -1659,3 +1659,21 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+
+.logo .fa-terminal {
+    animation: colorCycle 4s infinite, float 3s ease-in-out infinite;
+    font-size: 27px; /* Increased from 30px */
+}
+
+@keyframes colorCycle {
+    0% { color: #00ff00; } /* Green */
+    33% { color: #00ffff; } /* Cyan */
+    66% { color: #ffff00; } /* Yellow */
+    100% { color: #00ff00; }
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+}
