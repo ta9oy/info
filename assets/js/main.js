@@ -399,3 +399,18 @@
 					});
 
 })(jQuery);
+
+// Smooth scroll for internal links that should not change the hash.
+(function($){
+	$(function(){
+		$(document).on('click', 'a.internal-no-hash', function(e){
+			var href = $(this).attr('href');
+			if (!href || href.charAt(0) !== '#') return;
+			var $target = $(href);
+			if ($target.length) {
+				e.preventDefault();
+				$('html,body').animate({ scrollTop: $target.offset().top }, 600);
+			}
+		});
+	});
+})(jQuery);
