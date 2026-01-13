@@ -43,10 +43,18 @@
 				</div>
 			</div>
 			<nav>
+				<!-- <ul>
+					<li><a href="#about">About Me</a></li>
+					<li><a href="#intro">Intro</a></li>
+					<li><a href="#work">Work</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li><a href="#elements">Elements</a></li>
+				</ul> -->
+
 				<ul>
-					<li><a href="about.html">About Me</a></li>
-					<li><a href="work.html">Work</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="#about" class="internal-no-hash">About Me</a></li>
+					<li><a href="#work" class="internal-no-hash">Work</a></li>
+					<li><a href="#contact" class="internal-no-hash">Contact</a></li>
 				</ul>
 
 			</nav>
@@ -76,6 +84,94 @@
 				</p>
 			</article>
 
+
+			<!-- Work -->
+			<article id="work">
+				<h2 class="major">Work Experience</h2>
+				<span class="image main"><img src="images/pic02.jpg" alt="Work illustration" /></span>
+
+				<!-- Grameen Communications -->
+				<div class="job">
+					<p style="font-weight: bold; font-size: 22px;">Software Developer · Grameen Communications Ltd.</p>
+					<span class="job-duration">December 2022 – Present</span>
+					<ul>
+						<li>Worked on a Healthcare ERP system supporting 120+ health centers</li>
+						<li>Designed and implemented RESTful APIs using Spring Boot</li>
+						<li>Developed complex Oracle SQL & PL/SQL scripts with performance optimization</li>
+						<li>Generated Excel & PDF reports using Apache POI and BI Publisher</li>
+						<li>Built frontend features using Vue.js</li>
+						<li>Maintained Oracle APEX internal applications</li>
+						<li>Managed full delivery cycle including Git, Docker, Linux deployment, and production support
+						</li>
+					</ul>
+				</div>
+
+				<!-- Asia Composite Mills -->
+				<div class="job">
+					<p style="font-weight: bold; font-size: 22px;">Assistant Software Engineer · Asia Composite Mills
+						Ltd.</p>
+					<span class="job-duration">January 2022 – November 2022</span>
+					<ul>
+						<li>Maintained Oracle ERP systems using SQL, PL/SQL, Forms, and APEX</li>
+						<li>Developed database procedures and functions</li>
+						<li>Supported HTML5/CSS3 UI components</li>
+					</ul>
+				</div>
+			</article>
+
+
+			<!-- About -->
+			<article id="about">
+				<h2 class="major">About Me</h2>
+				<span class="image main">
+					<img src="images/pic03.jpg" alt="Asraful Islam Tanoy" />
+				</span>
+				<p>
+					I am <strong>Asraful Islam Tanoy</strong>, a passionate software developer with experience in
+					building scalable applications using
+					<strong>Java Spring Boot, Vue.js, and Oracle databases</strong>. I enjoy designing clean,
+					maintainable code and solving real-world problems
+					through technology. My work focuses on backend development, database optimization, and delivering
+					reliable software solutions.
+				</p>
+				<p>
+					Beyond development, I enjoy exploring new technologies, learning best practices, and contributing to
+					projects that improve workflows and efficiency.
+					I thrive in collaborative environments and always aim to deliver high-quality results on time.
+				</p>
+			</article>
+
+
+			<!-- Contact -->
+			<article id="contact">
+				<h2 class="major">Contact</h2>
+				<form method="post" action="#">
+					<div class="fields">
+						<div class="field half">
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" />
+						</div>
+						<div class="field half">
+							<label for="email">Email</label>
+							<input type="text" name="email" id="email" />
+						</div>
+						<div class="field">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" rows="4"></textarea>
+						</div>
+					</div>
+					<ul class="actions">
+						<li><input type="submit" value="Send Message" class="primary" /></li>
+						<li><input type="reset" value="Reset" /></li>
+					</ul>
+				</form>
+				<ul class="icons">
+					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+				</ul>
+			</article>
 
 			<!-- Elements -->
 			<article id="elements">

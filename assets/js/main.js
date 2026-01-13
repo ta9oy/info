@@ -387,26 +387,15 @@
 
 		// Initialize.
 
-			// If there are multiple articles, run the single-page article UI.
-			if ($main_articles.length > 1) {
-
-				// Hide main, articles.
+			// Hide main, articles.
 				$main.hide();
 				$main_articles.hide();
 
-				// Initial article.
+			// Initial article.
 				if (location.hash != ''
 				&&	location.hash != '#')
 					$window.on('load', function() {
 						$main._show(location.hash.substr(1), true);
 					});
-
-			} else {
-
-				// Single-article pages: show content normally.
-				$main.show();
-				$main_articles.show();
-
-			}
 
 })(jQuery);
